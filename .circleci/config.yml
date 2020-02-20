@@ -12,7 +12,7 @@ jobs:
                     -var 'aws_access_key=AKIAVEFNXYRYWWGWIQXI' 
                     -var 'aws_secret_key=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' 
                     -var 'aws_region=us-east-1' 
-                    -var 'subnet_id=subnet-2ade3b4c' 
+                    -var 'subnet_id=subnet-f113f0d0' 
                     -var 'ami_users=588539278316'
                     -var 'source_ami=ami-07ebfd5b3428b6f4d' 
                     ubuntu-ami.json
@@ -23,7 +23,7 @@ jobs:
                     -var 'aws_access_key=AKIAVEFNXYRYWWGWIQXI' 
                     -var 'aws_secret_key=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' 
                     -var 'aws_region=us-east-1' 
-                    -var 'subnet_id=subnet-2ade3b4c' 
+                    -var 'subnet_id=subnet-f113f0d0' 
                     -var 'ami_users= 588539278316'
                     -var 'source_ami=ami-07ebfd5b3428b6f4d' 
                     ubuntu-ami.json
