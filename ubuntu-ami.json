@@ -1,9 +1,9 @@
 {
 	    "variables": {
-	        "aws_access_key": "AKIAJAKNGM3D5LFCGWHQ",
-	        "aws_secret_key": "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",
+	        "aws_access_key": "AKIAVEFNXYRYWWGWIQXI",
+	        "aws_secret_key": "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",
 	        "aws_region": "us-east-1",
-	        "subnet_id": "subnet-2ade3b4c",
+	        "subnet_id": "subnet-f113f0d0",
 
 	        "source_ami": "ami-07ebfd5b3428b6f4d",
 	        "ssh_username": "ubuntu"
