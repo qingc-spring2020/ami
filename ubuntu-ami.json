@@ -40,10 +40,7 @@
 	            ],
 	            "inline": [
 	                "sudo apt-get update",
-			"sudo apt-get install -y tomcat8",
-			"sudo apt-get install -y tomcat8-docs tomcat8-examples tomcat8-admin",
-			"sudo apt install -y openjdk-8-jdk openjdk-8-jre",
-			"sudo apt install -y maven"
+			"sudo apt install -y openjdk-8-jdk openjdk-8-jre"
 
 	            ]
 	        }
