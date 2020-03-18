@@ -13,7 +13,6 @@ jobs:
                     -var 'aws_secret_key=Vpp9vSvDHLVMbUDGUWqkhmPdaAm910d/Sa+MzmAM' 
                     -var 'aws_region=us-east-1' 
                     -var 'subnet_id=subnet-07ee0961' 
-                    -var 'ami_users=588539278316'
                     -var 'source_ami=ami-07ebfd5b3428b6f4d' 
                     ubuntu-ami.json
       - run:
@@ -24,7 +23,6 @@ jobs:
                     -var 'aws_secret_key=Vpp9vSvDHLVMbUDGUWqkhmPdaAm910d/Sa+MzmAM' 
                     -var 'aws_region=us-east-1' 
                     -var 'subnet_id=subnet-07ee0961' 
-                    -var 'ami_users=588539278316'
                     -var 'source_ami=ami-07ebfd5b3428b6f4d' 
                     ubuntu-ami.json
 
