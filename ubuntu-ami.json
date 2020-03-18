@@ -1,18 +1,15 @@
 {
 	    "variables": {
-	        "aws_access_key": "AKIAVEFNXYRYWWGWIQXI",
-	        "aws_secret_key": "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",
+	        "aws_access_key": "AKIAYSB5MWPWBIHBK464",
+	        "aws_secret_key": "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",
 	        "aws_region": "us-east-1",
-	        "subnet_id": "subnet-f113f0d0",
-
+	        "subnet_id": "subnet-07ee0961",
 	        "source_ami": "ami-07ebfd5b3428b6f4d",
-	        "ssh_username": "ubuntu",
-		"ami_users": ""
+	        "ssh_username": "ubuntu"
 	    },
 	    "builders": [
 	        {
 	            "type": "amazon-ebs",
-		    "ami_users":"{{user `ami_users`}}",
 	            "access_key": "{{user `aws_access_key`}}",
 	            "secret_key": "{{user `aws_secret_key`}}",
 	            "region": "{{user `aws_region`}}",
@@ -40,11 +37,15 @@
 	            ],
 	            "inline": [
 	                "sudo apt-get update",
-			"sudo apt install -y openjdk-8-jdk openjdk-8-jre"
-
+					"sudo apt-get install ruby",
+					"sudo apt-get install wget",
+					"sudo apt install -y openjdk-8-jdk openjdk-8-jre",
+					"cd /home/ubuntu",
+					"wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install",
+					"chmod +x ./install",
+					"sudo ./install auto",
+					"sudo service codedeploy-agent start"
 	            ]
 	        }
 	    ]
 	}
-
-
